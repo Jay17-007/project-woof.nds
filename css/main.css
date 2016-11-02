@@ -1,1 +1,45 @@
-Boys will be boys :3
+.clear {
+	clear: both;
+}
+
+/*----------------header--------*/
+header {
+	background-color: #D800A2;
+	margin: 0px;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	background-color: violet;
+	border-radius: 50px;
+}
+
+/*-------------------section---------*/
+section {
+	background-color: #FF00E3;
+	width: 100%;
+}
+
+img {
+	float: left;
+	width: 40%;
+}
+
+section p {
+	float: right;
+}
+
+/*------------------footer--------*/
+footer {
+	background-color: #FF4877;
+	padding: 0px;
+	height: 100px;
+	margin-top: 50%;
+	width: 100%;
+}
+
+footer p {
+	font-weight: bold;
+	text-align: center;
+}
