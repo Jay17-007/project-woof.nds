@@ -31,7 +31,7 @@ h1 {
 }
 
 /*-------------------section---------*/
-section {
+.section {
 	background-color: #FF00E3;
 	width: 100%;
 	display: block;
@@ -85,14 +85,45 @@ h2 {
 	width: 100%;
 }
 
+.section2 {
+	width: 100%;
+}
+
 .list-me {
 	background-color: #EF6BAB;
+	display: block;
+	height: 500px;
+}
+
+.finally {
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+}
+
+.image2 {
+	float: left;
+}
+
+.list-me ul {
+	float: right;
+	width: 45%;
+}
+
+.list {
+	text-align: center;
+	list-style-position: inside;
+}
+
+.list li {
+	margin-top: 12px;
+	font-size: 30px;
+	font-weight: bold;
 }
 
 /*------------------footer--------*/
 footer {
 	background-color: #FF4877;
-	margin-top: 50%;
+	margin-top: 50px;
 	border-top: 2px inset;
 }
 
